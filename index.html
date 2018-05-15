@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:gs="http://www.gensee.com/gsml">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+  <script type="text/javascript">
+    document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px';
+    addEventListener('load', function () {
+      setTimeout(function () {
+        document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px';
+        window.unit = 100 * innerWidth / 750;
+        var e = document.createEvent('Event');
+        e.initEvent('adjustReady', true, true);
+        window.dispatchEvent(e);
+      }, 480);
+    });
+    addEventListener('orientationchange', function () {
+      setTimeout(function () {
+        document.documentElement.style.fontSize = 100 * innerWidth / 750 + 'px'
+      }, 480)
+    });
+  </script>
+ 	<script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?8961f1f7b422a95db422d142e0d9e952";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+</html>
